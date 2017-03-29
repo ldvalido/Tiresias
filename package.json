@@ -27,9 +27,5 @@
   "dependencies": {
     "flat": "^2.0.1",
     "lodash": "^4.17.4"
-  },
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
   }
 }
