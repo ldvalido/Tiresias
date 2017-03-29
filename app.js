@@ -28,7 +28,10 @@ function getExpense(req,res,next) {
 var server = restify.createServer();
 server.get('/expenses', getExpenses);
 server.get('/expenses/:idExpense',getExpense);
-server.get('/echo',function(){console.log('Hello')});
+server.get('/echo',function(req,r,n){
+	r.send('Hello');
+	next();
+});
 server.listen(process.env.PORT || 3000, function(){
 	console.log('Listening');
 });
