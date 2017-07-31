@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/ldvalido/Tiresias#readme",
   "dependencies": {
+    "excel-export": "^0.5.1",
     "flat": "^2.0.1",
     "lodash": "^4.17.4",
-    "restify": "^4.3.0"
+    "restify": "^4.3.0",
+    "util": "^0.10.3"
   },
   "engines": {
     "node": "6.9.4"
